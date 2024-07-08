@@ -1,0 +1,12 @@
+name: CustomEntities
+version: '${project.version}'
+main: org.icecube.customentities.CustomEntities
+api-version: '1.20'
+commands:
+  spawnfrog:
+    permission:
+      frog.use
+permissions:
+  frog.use:
+    default: op
+
